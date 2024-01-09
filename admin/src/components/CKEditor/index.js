@@ -50,6 +50,7 @@ const Wrapper = styled.div`
       font-size: 30px;
       line-height: 40px;
       margin-bottom: 24px;
+      font-weight: 900;
 
       @media(min-width: 768px) {
         font-size: 36px;
@@ -67,6 +68,7 @@ const Wrapper = styled.div`
       font-size: 30px;
       line-height: 40px;
       margin-bottom: 24px;
+      font-weight: 900;
 
       @media(min-width: 768px) {
         font-size: 36px;
@@ -84,6 +86,7 @@ const Wrapper = styled.div`
       font-size: 24px;
       line-height: 36px;
       margin-bottom: 16px;
+      font-weight: 900;
 
       @media(min-width: 768px) {
         font-size: 30px;
@@ -101,6 +104,7 @@ const Wrapper = styled.div`
       font-size: 20px;
       line-height: 32px;
       margin-bottom: 16px;
+      font-weight: 900;
 
       @media(min-width: 768px) {
         font-size: 24px;
@@ -118,6 +122,7 @@ const Wrapper = styled.div`
       font-size: 18px;
       line-height: 28px;
       margin-bottom: 8px;
+      font-weight: 900;
 
       @media(min-width: 768px) {
         font-size: 20px;
@@ -135,6 +140,7 @@ const Wrapper = styled.div`
       font-size: 16px;
       line-height: 24px;
       margin-bottom: 8px;
+      font-weight: 900;
 
       @media(min-width: 768px) {
         font-size: 18px;
@@ -152,6 +158,7 @@ const Wrapper = styled.div`
       font-size: 24px;
       line-height: 36px;
       margin-bottom: 36;
+      font-weight: 900;
     }
   }
 `;

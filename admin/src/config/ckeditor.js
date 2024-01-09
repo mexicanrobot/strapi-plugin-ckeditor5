@@ -2,46 +2,46 @@ module.exports = {
   ////// CONFIGURATION TEMPLATE: uncomment desired lines to override default config.
   ////// While all lines are commented, config will not change anything.
   toolbar: {
-    // items: [
-    //     "heading",
-    //     "|",
+    items: [
+        "heading",
+        // "|",
     //     "fontFamily",
     //     "fontSize",
     //     "fontColor",
     //     "highLight",
-    //     "|",
-    //     "bold",
-    //     "italic",
-    //     "underline",
-    //     "strikethrough",
-    //     "subscript",
-    //     "superscript",
-    //     "removeFormat",
-    //     "code",
-    //     "link",
-    //     "bulletedList",
-    //     "numberedList",
+        "|",
+        "bold",
+        "italic",
+        "underline",
+        "strikethrough",
+        "subscript",
+        "superscript",
+        "removeFormat",
+        "code",
+        "link",
+        "bulletedList",
+        "numberedList",
     //     "todoList",
     //     "insertImage",
-    //     "strapiMediaLib",
-    //     "|",
+        "strapiMediaLib",
+        "|",
     //     "alignment",
     //     "indent",
     //     "outdent",
     //     "|",
-    //     "specialCharacters",
-    //     "blockQuote",
-    //     "insertTable",
+        "specialCharacters",
+        "blockQuote",
+        "insertTable",
     //     "mediaEmbed",
-    //     "htmlEmbed",
-    //     "codeBlock",
-    //     "horizontalLine",
-    //     "|",
-    //     "fullScreen",
-    //     "undo",
-    //     "redo",
-    // ],
-    // shouldNotGroupWhenFull: true
+        "htmlEmbed",
+        "codeBlock",
+        "horizontalLine",
+        "|",
+        "fullScreen",
+        "undo",
+        "redo",
+    ],
+    shouldNotGroupWhenFull: true
   },
   image: {
     // styles: [
@@ -109,13 +109,15 @@ module.exports = {
     // ],
   },
   heading: {
-    // options: [
-    //     { model: "paragraph", title: "Paragraph", class: "ck-heading_paragraph" },
-    //     { model: "heading1", view: "h1", title: "Heading 1", class: "ck-heading_heading1" },
-    //     { model: "heading2", view: "h2", title: "Heading 2", class: "ck-heading_heading2" },
-    //     { model: "heading3", view: "h3", title: "Heading 3", class: "ck-heading_heading3" },
-    //     { model: "heading4", view: "h4", title: "Heading 4", class: "ck-heading_heading4" },
-    // ]
+    options: [
+        { model: "paragraph", title: "Paragraph", class: "ck-heading_paragraph" },
+        { model: "heading1", view: "h1", title: "Heading 1", class: "ck-heading_heading1" },
+        { model: "heading2", view: "h2", title: "Heading 2", class: "ck-heading_heading2" },
+        { model: "heading3", view: "h3", title: "Heading 3", class: "ck-heading_heading3" },
+        { model: "heading4", view: "h4", title: "Heading 4", class: "ck-heading_heading4" },
+        { model: "heading5", view: "h5", title: "Heading 5", class: "ck-heading_heading5" },
+        { model: "heading6", view: "h6", title: "Heading 6", class: "ck-heading_heading6" },
+    ]
   },
   highLight: {
     // options: [
@@ -202,4 +204,52 @@ module.exports = {
     //   },
     // ],
   },
+  codeBlock: {
+    languages: [
+      {
+        language: "Javascript",
+        label: "javascript"
+      },
+      {
+        language: "Python",
+        label: "python"
+      },
+      {
+        language: "ruby",
+        label: "Ruby"
+      },
+      {
+        language: "yaml",
+        label: "YAML"
+      },
+      {
+        language: "php",
+        label: "PHP"
+      },
+      {
+        language: "shell-session",
+        label: "Shell"
+      },
+      {
+        language: "java",
+        label: "Java"
+      },
+      {
+        language: "json",
+        label: "JSON"
+      },
+      {
+        language: "C#",
+        label: "cs"
+      },
+      {
+        language: "elixir",
+        label: "Elixir"
+      },
+      {
+        language: "c",
+        label: "C"
+      },
+    ]
+  }
 };
