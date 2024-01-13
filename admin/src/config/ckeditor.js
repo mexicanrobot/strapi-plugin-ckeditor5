@@ -40,6 +40,7 @@ module.exports = {
         "fullScreen",
         "undo",
         "redo",
+        "sourceEditing"
     ],
     shouldNotGroupWhenFull: true
   },
