@@ -46,6 +46,27 @@ const Wrapper = styled.div`
       }
     }
 
+    span {
+      color: black;
+      background-color: white;
+    }
+
+    strong {
+      font-weight: 900;
+    }
+
+    i {
+      font-style: italic;
+    }
+
+    sub {
+      vertical-align: sub;
+    }
+
+    sup {
+      vertical-align: super;
+    }
+
     h1 {
       font-size: 30px;
       line-height: 40px;
