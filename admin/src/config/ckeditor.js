@@ -7,7 +7,7 @@ module.exports = {
         // "|",
     //     "fontFamily",
     //     "fontSize",
-    //     "fontColor",
+        "fontColor",
     //     "highLight",
         "|",
         "bold",
