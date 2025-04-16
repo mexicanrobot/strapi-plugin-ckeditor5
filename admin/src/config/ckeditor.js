@@ -256,4 +256,5 @@ module.exports = {
   list: {
     multiBlock: true,
   },
+  indent: {},
 };
