@@ -252,5 +252,8 @@ module.exports = {
         label: "C"
       },
     ]
-  }
+  },
+  list: {
+    multiBlock: true,
+  },
 };
