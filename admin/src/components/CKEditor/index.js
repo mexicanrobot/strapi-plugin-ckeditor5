@@ -25,10 +25,12 @@ const Wrapper = styled.div`
     ul.todo-list {
       list-style: none;
     }
-    ul, ol {
+    ul {
       list-style: initial;
     }
-
+    ol {
+      list-style: decimal;
+    }
     li {
       margin-left: 24px;
       margin-bottom: 16px;
